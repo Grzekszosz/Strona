@@ -1,0 +1,98 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+body 
+{
+    background-color: darkslategrey;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    color:darkgrey;
+
+}
+#container
+{
+    min-width:480px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+#tekst
+{
+	margin-right:15%;
+    text-align: center;
+    color:darkgoldenrod;
+    letter-spacing: 3px;
+
+ }
+#logo
+{
+	max-width:10%;
+	height:auto;
+}
+ 
+#menu
+{
+    width: 10%;
+    background-color:dimgrey;
+    float:right;
+    margin-right: 45px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#ava > img
+{
+    width: 20%;
+    float:left;
+    height: auto;
+    text-align: right;
+    padding-top: 10px;
+    margin :15px;   
+}
+
+#myk
+{
+	float:left;
+    margin:59px;
+	
+}
+#wpis
+{
+	text-align: center;
+	float:down;
+}
+#footer
+{
+    width: 100%;
+    background-color:rgb(63, 63, 63);
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	bottom:0;
+	right:0;
+	left:0;
+	position:fixed;
+}
+a:color
+{color:darkgrey;}
+a:visited
+{
+    text-decoration: none;
+    color:darkgrey;
+}
+.option
+{
+    
+    text-decoration-color: darkgrey;
+    text-decoration-skip: none;
+    text-decoration-line: none;
+    float:bottom;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 5px;
+}
+.option:hover
+{
+    background-color: black;
+    cursor:pointer;
+}
+
